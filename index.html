@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Commander's Ascendancy</title>
     <link rel="stylesheet" href="stylesheet.css" type="text/css">
+    
 </head>
 <body>
     <header>
@@ -16,7 +17,19 @@
             <span id="headerName">Commander's Ascendancy </span>
             <input type="search" class="searchBox" placeholder="Search our articles" />
         </div>
+
+        <nav class="navBar">
+            <ul>
+                <li><a class="navLink" href="index.html">Home</a></li>
+                <li><a class="navLink" href="deckSultai.html">Sultai</a></li>
+                <li><a class="navLink" href="deckTemur.html">Temur</a></li>
+                <li><a class="navLink" href="deckWURG.html">No Black</a></li>
+            </ul>
+        </nav>
+
     </header>
+
+
 
     <section id="welcomeText">
         <header>Welcome to Commander's Ascendancy</header>
@@ -51,7 +64,7 @@
                     <span class="deckArticleName"><a href="deckTemur.html">A Dog and its Boy</a></span>
                 </header>
                 <p class="deckArticlePower">PL 8</p>
-                <div class="wishlistBtn">
+                <div class="wishlistBtn" id="addToListBtn">
                     Add to Wishlist
                 </div>
             </article>
@@ -63,7 +76,7 @@
                     <span class="deckArticleName"><a href="deckWURG.html">Omnath Family Reunion</a></span>
                 </header>
                 <p class="deckArticlePower">PL 6</p>
-                <div class="wishlistBtn">
+                <div class="wishlistBtn" id="addToListBtn" >
                     Add to Wishlist
                 </div>
             </article>
@@ -75,7 +88,7 @@
                     <span class="deckArticleName"><a href="deckSultai.html">Rising from the Tide</a></span>
                 </header>
                 <p class="deckArticlePower">PL 8</p>
-                <div class="wishlistBtn">
+                <div class="wishlistBtn" id="addToListBtn">
                     Add to Wishlist
                 </div>
             </article>
@@ -84,6 +97,7 @@
     </section>
     <footer>
        João Eduardo Fernandes Dantas &COPY;
+       <script src="sitescript.js"></script>
     </footer>
 </body>
 </html>

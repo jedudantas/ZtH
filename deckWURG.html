@@ -16,6 +16,40 @@
             <span id="headerName">Commander's Ascendancy </span>
         </div>
     </header>
+    <form id="mainform" action="#" method="post" maxlenght="20">
+        <fieldset class="box">
+            <legend>Your details</legend>
+            <div>
+                <p>
+                    <label class="textLabel" for="firstNameInput">First Name</label>
+                    <input id="firstNameInput" name="FirstName" type="text"  autofocus="autofocus" class="textInput" required/>
+                    <input type="submit" value="Vai Teia">
+                </p>
+                <p>
+                    <label class="textLabel" for="lastNameInput">Last Name</label>
+                    <input id="lastNameInput" name="LastName" type="text" size="10" class="textInput" />
+                    <input type="submit" value="Vai Teia">
+                </p>
+                <p>
+                    <label class="textLabel" for="emailInput">E-Mail</label>
+                    <input id="emailInput" name="Email" type="email" class="textInput" />
+                </p>
+                <p>
+                    <label class="textLabel" for="phoneInput">Phone Number</label>
+                    <input id="phoneInput" name="PhoneNumber" type="number" class="textInput" min="1" max="200"/>
+                </p>
+            </div>
+        </fieldset>
+        <br>
+        <fieldset class="box">
+            <legend>Wishlist</legend>
+            <p>
+                <label class="textLabel" for="deliveryDateInput">Delivery Date</label>
+                <input id="deliveryDateInput" name="DeliveryDate" type="date" class="textInput" />
+            </p>
+
+        </fieldset>
+    </form>
 
     <footer>
         &COPY;
