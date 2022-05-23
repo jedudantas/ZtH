@@ -1,0 +1,91 @@
+* {
+    background-color: #FAFAFA;
+}
+
+header {
+    font-weight: bold;
+}
+
+.headerLogo{
+    text-decoration: none;
+    float: left;
+    margin-right: 10px;
+}
+    .headerLogo > img {
+        height: 90px;
+        width: 55px;
+    }
+
+body {
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.searchBox {
+    float: right;
+    padding: 5px;
+    margin: 10px 10px;
+    width: 200px;
+}
+
+#headerName {
+    font-size: 40px;
+    color: #603813;
+    padding: 15px;
+    margin: 8px 0px;
+    font-weight: bold;
+}
+
+#welcomeText {
+    float: left;
+    width: 70%;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+    #welcomeText > header{
+        color: #603813;
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 3px;
+    }
+
+#recentPosts {
+    float: right;
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+    #recentPosts > header {
+        margin-left: 10px;
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 3px;
+        color: #603813;
+    }
+
+    #recentPosts > ul {
+        list-style: none;
+    }
+
+        #recentPosts > ul > li{
+            margin-bottom: 3px;
+        }
+
+#favoriteDecks {
+    height: 100%;
+    width: 70%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+footer {
+    clear: both;
+    width: 100%;
+    background-color: #5c5045;
+    margin: 20px 0px 20px;
+    padding: 5px;
+}
